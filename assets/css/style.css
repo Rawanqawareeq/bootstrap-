@@ -1,0 +1,115 @@
+:root{
+    --maincolor:#ff206e;;
+}
+
+.header{
+    background-image:url(../img/bg_osaka.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.header .headercontent a{
+    color: var(--maincolor);
+
+}
+.header .icon{
+    color: white;
+    width:3rem;
+    height: 3rem;
+    transition:background-color 1s;
+}
+.header .icon:hover{
+    background-color:var(--maincolor);
+}
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+    color: var(--maincolor);}
+    .nav-link:hover {
+        color: var(--maincolor);
+    }
+    .about{
+    background-image: url(../img/light_dot.jpg);
+      
+    }
+    .title h2{
+       font-size: 4rem;
+       letter-spacing: 10px;
+       color: #cacaca;
+       font-weight: 900;
+    }
+    .title h3{
+        font-size: 2rem;
+        font-weight: 900;
+     }
+     .about .about-content p:first-of-type{
+        color: var(--maincolor);
+     }
+     .Service h2{
+        font-size: 4rem;
+        letter-spacing: 10px;
+        color: #222;
+        font-weight: 900;
+     }
+     .Service h3{
+         font-size: 2rem;
+         color: #fff;;
+         font-weight: 900;
+      }
+      .about .about-content p:first-of-type{
+         color: var(--maincolor);
+      }
+      .Services{
+        background-image: url(../img/dark_dot.jpg);
+      }
+      
+      .Services-item  .icon{
+        background-color: #000;;
+        color: white;
+        width:3rem;
+        height: 3rem;
+        transition-property:1s;
+    }
+    .Services-item h3{
+        position: relative;
+        
+    }
+    .Services-item h3::after{
+        content:'';
+        left: 50%;
+        transform: translateX(-50%);
+        position:absolute;
+        top: 37px;
+        width: 16%;
+        height: 3px;
+        background-color: var(--maincolor);
+        transition:1s;
+    }
+    .Services-item:hover .icon{
+        background-color: var(--maincolor);
+        transition-property:background-color;
+    }
+    .Services-item:hover h3::after{
+        width: 42%;
+    }
+    .client img{
+        width: 8rem;
+        height: 8rem;
+
+    }
+    .carousel-indicators [data-bs-target]{
+        height: 3rem;
+        width: 3rem;
+        text-indent: 0;
+        border-radius: 50%;
+    }
+    .nav-tabs {
+        justify-content: center;
+    }
+    .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.active {
+    color:var(--maincolor);
+    border: none;
+    
+    }
+    .nav-tabs  .nav-link{
+        color: #000;
+        border: none;
+    }
+   
